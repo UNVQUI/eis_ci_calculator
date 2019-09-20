@@ -13,7 +13,7 @@ Este es un proyecto para ejercitar TDD + CI
 ### Configuración de proyecto
 
 1. Importar el proyecto utilizando el IDE IntelliJ
-2. Ejecutar el conjunto de pruebas obteniendo una captura equivalente a la siguiente [TestPass][TestPass]
+2. Ejecutar el conjunto de pruebas obteniendo una captura equivalente a la siguiente ![TestPass][TestPass]
 
 
 [TestPass]: captures/test_pass.png
