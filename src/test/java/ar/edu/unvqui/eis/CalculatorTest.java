@@ -19,4 +19,10 @@ public class CalculatorTest
 
         assertEquals(4, Calculator.add(2,2));
     }
+    @Test
+    public void shouldDivideBothNumber()
+    {
+
+        assertEquals(2, Calculator.div(4,2));
+    }
 }
