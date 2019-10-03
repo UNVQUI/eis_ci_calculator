@@ -19,4 +19,10 @@ public class CalculatorTest
 
         assertEquals(4, Calculator.add(2,2));
     }
+
+    @Test
+    public void shouldMultBothNumber()
+    {
+        assertEquals(8, Calculator.mult(2, 4));
+    }
 }
