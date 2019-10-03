@@ -19,4 +19,12 @@ public class CalculatorTest
 
         assertEquals(4, Calculator.add(2,2));
     }
+
+    @Test
+    public void shouldRootSquared()
+    {
+
+        assertEquals(2.0, Calculator.root(4));
+    }
+
 }
