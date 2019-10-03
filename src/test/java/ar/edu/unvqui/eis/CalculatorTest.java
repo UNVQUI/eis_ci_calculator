@@ -19,4 +19,10 @@ public class CalculatorTest
 
         assertEquals(4, Calculator.add(2,2));
     }
+
+    @Test
+    public void shouldLogNumber()
+    {
+        assertEquals(1.0, Calculator.log(10.0));
+    }
 }
