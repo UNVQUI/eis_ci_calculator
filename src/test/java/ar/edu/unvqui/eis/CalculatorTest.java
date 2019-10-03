@@ -17,6 +17,15 @@ public class CalculatorTest
     public void shouldAddBothNumber()
     {
 
+
+
         assertEquals(4, Calculator.add(2,2));
+    }
+
+    @Test
+    public void shouldMultipliNTimes(){
+
+        assertEquals(4, Calculator.pow(2,2));
+        assertEquals(27, Calculator.pow(3,3));
     }
 }
