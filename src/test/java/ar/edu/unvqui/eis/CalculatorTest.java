@@ -19,6 +19,12 @@ public class CalculatorTest
 
         assertEquals(4, Calculator.add(2,2));
     }
+
+    @Test
+    public void elModuloDe10Dividido3Es1 () {
+
+        assertEquals(1, Calculator.module(10, 3));
+    }
 }
 
 
