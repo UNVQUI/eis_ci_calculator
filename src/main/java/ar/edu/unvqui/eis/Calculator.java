@@ -6,4 +6,13 @@ public class Calculator {
     }
 
     public static int module(int x, int y) { return x % y;}
+
+    public static int pow(int base, int exponent) {
+        int res = base;
+        for (int i = 1; i < exponent; i++){
+            res = res * base;
+        }
+        return res;
+    }
+
 }
