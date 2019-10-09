@@ -28,4 +28,9 @@ public class CalculatorTest
         assertEquals(4, Calculator.pow(2,2));
         assertEquals(27, Calculator.pow(3,3));
     }
+
+    @Test
+    public void shouldDivideByX(){
+        assertEquals(1, Calculator.inverse( 1));
+    }
 }
