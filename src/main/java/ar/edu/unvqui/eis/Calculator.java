@@ -12,4 +12,8 @@ public class Calculator {
         }
         return res;
     }
+
+    public static int inverse(int x) {
+        return (1/x);
+    }
 }
