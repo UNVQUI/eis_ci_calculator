@@ -23,9 +23,6 @@ public class CalculatorTest
     }
 
     @Test
-    public void shouldLogNumber()
-    {
-        assertEquals(1.0, Calculator.log(10.0));
     public void shouldMultipliNTimes(){
 
         assertEquals(4, Calculator.pow(2,2));
@@ -35,5 +32,11 @@ public class CalculatorTest
     @Test
     public void shouldDivideByX(){
         assertEquals(1, Calculator.inverse( 1));
+    }
+
+    @Test
+    public void shouldLogNumber()
+    {
+        assertEquals(1.0, Calculator.log(10.0));
     }
 }
