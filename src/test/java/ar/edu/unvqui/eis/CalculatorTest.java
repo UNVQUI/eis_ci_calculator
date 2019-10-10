@@ -17,6 +17,8 @@ public class CalculatorTest
     public void shouldAddBothNumber()
     {
 
+
+
         assertEquals(4, Calculator.add(2,2));
     }
 
@@ -24,5 +26,14 @@ public class CalculatorTest
     public void shouldLogNumber()
     {
         assertEquals(1.0, Calculator.log(10.0));
+    public void shouldMultipliNTimes(){
+
+        assertEquals(4, Calculator.pow(2,2));
+        assertEquals(27, Calculator.pow(3,3));
+    }
+
+    @Test
+    public void shouldDivideByX(){
+        assertEquals(1, Calculator.inverse( 1));
     }
 }
