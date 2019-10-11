@@ -5,6 +5,10 @@ public class Calculator {
         return a + b;
     }
 
+    public static int mult(int a, int b) {
+        return a * b; 
+    }
+  
     public static int pow(int base, int exponent) {
         int res = base;
         for (int i = 1; i < exponent; i++){
@@ -12,7 +16,7 @@ public class Calculator {
         }
         return res;
     }
-
+  
     public static int inverse(int x) {
         return (1/x);
     }
