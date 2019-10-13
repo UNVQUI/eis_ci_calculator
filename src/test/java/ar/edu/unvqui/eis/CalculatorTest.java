@@ -42,5 +42,10 @@ public class CalculatorTest
     public void shouldDivideByX(){
         assertEquals(1, Calculator.inverse( 1));
     }
+    
+    @Test
+    public void shouldLogX(){
+        assertEquals(1.0, Calculator.Log(10.0));
+    }
 
 }
