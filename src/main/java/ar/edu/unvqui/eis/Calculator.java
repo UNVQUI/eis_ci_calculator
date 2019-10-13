@@ -28,4 +28,8 @@ public class Calculator {
 
     public static int subtract(int a, int b){ return a - b;}
 
+    public static Double Log(Double x) {
+        return Math.log10(x);
+    }
+
 }
