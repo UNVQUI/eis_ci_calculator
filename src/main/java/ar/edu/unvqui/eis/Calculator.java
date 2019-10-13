@@ -12,4 +12,8 @@ public class Calculator {
         }
         return res;
     }
+
+    public static double log(double x){
+        return Math.log10(x);
+    }
 }
