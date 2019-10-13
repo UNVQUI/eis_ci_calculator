@@ -1,9 +1,14 @@
 package ar.edu.unvqui.eis;
 
+import java.math.MathContext;
+import java.math.*;
+
 public class Calculator {
     public static int add(int a, int b) {
         return a + b;
     }
+
+    public static double root(int a) {return Math.sqrt(a);}
 
     public static int mult(int a, int b) {
         return a * b; 
@@ -20,4 +25,5 @@ public class Calculator {
     public static int inverse(int x) {
         return (1/x);
     }
+
 }

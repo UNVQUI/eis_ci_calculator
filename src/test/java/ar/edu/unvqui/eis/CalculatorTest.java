@@ -20,6 +20,14 @@ public class CalculatorTest
     }
 
     @Test
+
+    public void shouldRootSquared()
+    {
+
+        assertEquals(2.0, Calculator.root(4));
+    }
+
+
     public void shouldMultBothNumber() {
         assertEquals(8, Calculator.mult(2, 4));
     }
@@ -34,4 +42,5 @@ public class CalculatorTest
     public void shouldDivideByX(){
         assertEquals(1, Calculator.inverse( 1));
     }
+
 }
