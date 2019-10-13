@@ -5,14 +5,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
 public class CalculatorTest
 {
-    /**
-     * Rigorous Test :-)
-     */
+
     @Test
     public void shouldAddBothNumber()
     {
@@ -33,5 +28,10 @@ public class CalculatorTest
     public void shouldLogX(){
 
         assertEquals(1.0, Calculator.log(10.0));
+    }
+    
+    @Test
+    public void shouldDivideByX(){
+        assertEquals(1, Calculator.inverse( 1));
     }
 }

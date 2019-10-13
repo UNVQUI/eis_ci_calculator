@@ -16,4 +16,10 @@ public class Calculator {
     public static double log(double x){
         return Math.log10(x);
     }
+    
+    public static int inverse(int x) {
+        return (1/x);
+    }
+
+    public static int subtract(int a, int b){ return a - b;}
 }
