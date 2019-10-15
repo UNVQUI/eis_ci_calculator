@@ -32,4 +32,5 @@ public class Calculator {
         return Math.log10(x);
     }
 
+    public static int div(int a, int b) { return a / b; }
 }

@@ -48,4 +48,10 @@ public class CalculatorTest
         assertEquals(1.0, Calculator.Log(10.0));
     }
 
+    @Test
+    public void shouldDivideBothNumber()
+    {
+
+        assertEquals(2, Calculator.div(4,2));
+    }
 }
