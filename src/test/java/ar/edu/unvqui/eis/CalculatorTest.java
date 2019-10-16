@@ -16,15 +16,24 @@ public class CalculatorTest
     @Test
     public void shouldAddBothNumber()
     {
-
-
-
         assertEquals(4, Calculator.add(2,2));
     }
 
     @Test
-    public void shouldMultipliNTimes(){
 
+    public void shouldRootSquared()
+    {
+
+        assertEquals(2.0, Calculator.root(4));
+    }
+
+
+    public void shouldMultBothNumber() {
+        assertEquals(8, Calculator.mult(2, 4));
+    }
+      
+    @Test
+    public void shouldMultipliNTimes() {
         assertEquals(4, Calculator.pow(2,2));
         assertEquals(27, Calculator.pow(3,3));
     }
@@ -38,5 +47,16 @@ public class CalculatorTest
     public void shouldLogNumber()
     {
         assertEquals(1.0, Calculator.log(10.0));
+    
+    @Test
+    public void shouldLogX(){
+        assertEquals(1.0, Calculator.Log(10.0));
+    }
+
+    @Test
+    public void shouldDivideBothNumber()
+    {
+
+        assertEquals(2, Calculator.div(4,2));
     }
 }
