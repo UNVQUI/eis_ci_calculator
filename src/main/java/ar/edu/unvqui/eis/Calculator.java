@@ -36,4 +36,6 @@ public class Calculator {
     public static int div(int a, int b) { return a / b; }
   
     public static int module(int x, int y) { return x % y;}
+
+    public static double xSinX(Double x) { return x * Math.sin(Math.toRadians(x));}
 }

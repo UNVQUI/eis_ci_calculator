@@ -60,6 +60,14 @@ public class CalculatorTest
 
         assertEquals(1, Calculator.module(10, 3));
     }
+
+    @Test
+    public void shouldMultiplyXBySinX () {
+        //sin = 1.
+        assertEquals(89.9999999999427 , Calculator.xSinX(89.9999999999427));
+        //sin = 0
+        assertEquals(0.0 , Calculator.xSinX(0.0));
+    }
 }
 
 
