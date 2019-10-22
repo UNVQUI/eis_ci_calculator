@@ -65,6 +65,12 @@ public class CalculatorTest
 
         assertEquals(1, Calculator.module(10, 3));
     }
+
+    @Test
+    public void ElFactorialDe5Es120() {
+
+        assertEquals(120.0,0, Calculator.factorial(5));
+    }
 }
 
 
