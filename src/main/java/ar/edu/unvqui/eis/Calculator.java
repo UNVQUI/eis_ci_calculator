@@ -38,7 +38,6 @@ public class Calculator {
   
     public static int module(int x, int y) { return x % y;}
 
-}
     public static Double factorial(int x) {
         Double factorial = new Double(1);
 
