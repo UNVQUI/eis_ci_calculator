@@ -36,4 +36,15 @@ public class Calculator {
     public static int div(int a, int b) { return a / b; }
   
     public static int module(int x, int y) { return x % y;}
+
+    public static Double factorial(int x) {
+        Double factorial = new Double(1);
+
+        for (int i = 1; x != 0; i++) {
+            factorial = factorial * new Double(i);
+            x -= 1;
+        }
+
+        return factorial;
+    }
 }
