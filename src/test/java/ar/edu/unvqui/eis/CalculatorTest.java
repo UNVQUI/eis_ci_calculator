@@ -20,14 +20,13 @@ public class CalculatorTest
     }
 
     @Test
-
     public void shouldRootSquared()
     {
 
         assertEquals(2.0, Calculator.root(4));
     }
 
-
+    @Test
     public void shouldMultBothNumber() {
         assertEquals(8, Calculator.mult(2, 4));
     }
@@ -36,6 +35,7 @@ public class CalculatorTest
     public void shouldMultipliNTimes() {
         assertEquals(4, Calculator.pow(2,2));
         assertEquals(27, Calculator.pow(3,3));
+
     }
 
     @Test
@@ -59,4 +59,12 @@ public class CalculatorTest
 
         assertEquals(2, Calculator.div(4,2));
     }
+  
+    @Test
+    public void elModuloDe10Dividido3Es1 () {
+
+        assertEquals(1, Calculator.module(10, 3));
+    }
 }
+
+
