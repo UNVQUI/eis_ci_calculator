@@ -41,6 +41,12 @@ public class CalculatorTest {
     }
 
     @Test
+    public void shouldLogNumber()
+    {
+        assertEquals(1.0, Calculator.log(10.0));
+    }
+
+    @Test
     public void shouldLogX() {
         assertEquals(1.0, Calculator.Log(10.0));
     }

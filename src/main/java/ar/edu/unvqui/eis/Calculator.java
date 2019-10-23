@@ -26,7 +26,8 @@ public class Calculator {
     public static int inverse(int x) {
         return (1/x);
     }
-
+    public static double log(double a) { return Math.log10(a);}
+  
     public static int subtract(int a, int b){ return a - b;}
 
     public static Double Log(Double x) {
@@ -50,3 +51,4 @@ public class Calculator {
 
     public static double xSinX(Double x) { return x * Math.sin(Math.toRadians(x));}
 }
+
