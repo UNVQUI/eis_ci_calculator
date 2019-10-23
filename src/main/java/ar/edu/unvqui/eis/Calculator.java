@@ -48,5 +48,7 @@ public class Calculator {
 
         return factorial;
     }
+
+    public static double xSinX(Double x) { return x * Math.sin(Math.toRadians(x));}
 }
 
