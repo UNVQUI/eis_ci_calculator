@@ -1,1 +1,2 @@
 language: java
+  CODECOV_TOKEN="4ae0b75a-52fb-4a25-8df3-5c097eb06926"
