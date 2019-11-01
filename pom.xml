@@ -74,13 +74,10 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-      </plugins>
-    </pluginManagement>
-    <plugins>
-      <plugin>
+        <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.8.5</version>
+        <version>0.7.7.201606060606</version>
         <executions>
           <execution>
             <goals>
@@ -97,6 +94,8 @@
           </execution>
         </executions>
       </plugin>
-    </plugins>
+      </plugins>
+    </pluginManagement>
+
   </build>
 </project>
