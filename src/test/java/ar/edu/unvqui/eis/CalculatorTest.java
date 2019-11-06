@@ -1,9 +1,6 @@
 package ar.edu.unvqui.eis;
-
-import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for simple App.
