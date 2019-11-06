@@ -72,6 +72,7 @@ public class CalculatorTest {
         assertEquals(89.9999999999427, Calculator.xSinX(89.9999999999427));
         //sin = 0
         assertEquals(0.0, Calculator.xSinX(0.0));
+
     }
 }
 
