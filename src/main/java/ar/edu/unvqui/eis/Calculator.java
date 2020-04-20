@@ -50,5 +50,9 @@ public class Calculator {
     }
 
     public static double xSinX(Double x) { return x * Math.sin(Math.toRadians(x));}
+
+    public static int twice(int i) {
+        return i * i;
+    }
 }
 

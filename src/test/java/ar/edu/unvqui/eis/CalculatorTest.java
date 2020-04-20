@@ -76,6 +76,13 @@ public class CalculatorTest {
         //sin = 0
         assertEquals(0.0, Calculator.xSinX(0.0));
     }
+
+
+    @Test
+    public void shouldDouble() {
+        assertEquals(400, Calculator.twice(20));
+    }
+
 }
 
 
