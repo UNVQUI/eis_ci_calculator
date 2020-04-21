@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/UNVQUI/eis_ci_calculator.svg?branch=201902C)](https://travis-ci.org/UNVQUI/eis_ci_calculator)
 
 
-# Calculadora
+# Calculadora Nro.2
 
 Este es un proyecto para ejercitar TDD + CI
 
