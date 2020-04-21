@@ -83,6 +83,11 @@ public class CalculatorTest {
         assertEquals(400, Calculator.twice(20));
     }
 
+    @Test
+    public void shouldPorTres() {
+        assertEquals(60, Calculator.tres(20));
+    }
+
 }
 
 
