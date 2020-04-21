@@ -54,5 +54,9 @@ public class Calculator {
     public static int twice(int i) {
         return i * i;
     }
+
+    public static int tres(int i) {
+        return 3 * i;
+    }
 }
 
