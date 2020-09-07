@@ -15,5 +15,8 @@ Este es un proyecto para ejercitar TDD + CI
 1. Importar el proyecto utilizando el IDE IntelliJ
 2. Ejecutar el conjunto de pruebas obteniendo una captura equivalente a la siguiente ![TestPass][TestPass]
 
+### Ahora podemos restrar
+
+Fijate que bien resta!!!
 
 [TestPass]: captures/test_pass.png
