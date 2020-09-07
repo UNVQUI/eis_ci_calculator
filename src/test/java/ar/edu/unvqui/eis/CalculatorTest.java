@@ -19,4 +19,11 @@ public class CalculatorTest
 
         assertEquals(4, Calculator.add(2,2));
     }
+
+    @Test
+    public void shouldSubtractBothNumber()
+    {
+
+        assertEquals(0, Calculator.substract(2,2));
+    }
 }
