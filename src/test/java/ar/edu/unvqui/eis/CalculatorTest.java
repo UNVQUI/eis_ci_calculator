@@ -26,4 +26,11 @@ public class CalculatorTest
 
         assertEquals(0, Calculator.substract(2,2));
     }
+
+    @Test
+    public void shouldTimneBothNumber()
+    {
+
+        assertEquals(6, Calculator.time(3,2));
+    }
 }
