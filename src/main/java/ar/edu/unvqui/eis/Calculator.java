@@ -8,4 +8,8 @@ public class Calculator {
     public static int substract(int i, int i1) {
         return i1 - i;
     }
+
+    public static int time(int i, int i1) {
+        return i * i1;
+    }
 }
