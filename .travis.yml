@@ -1,1 +1,4 @@
 language: java
+script:
+  - mvn -B test
+  - bash <(curl -s https://codecov.io/bash)
