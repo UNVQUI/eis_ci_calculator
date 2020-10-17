@@ -1,9 +1,6 @@
 package ar.edu.unvqui.eis;
-
-import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for simple App.
@@ -75,6 +72,7 @@ public class CalculatorTest {
         assertEquals(89.9999999999427, Calculator.xSinX(89.9999999999427));
         //sin = 0
         assertEquals(0.0, Calculator.xSinX(0.0));
+
     }
 
 
