@@ -16,4 +16,9 @@ public class Calculator {
     public static int div(int i, int i1) {
         return i / i1;
     }
+
+    public static int sqrt(int i) {
+
+        return (int) Math.sqrt(i);
+    }
 }
