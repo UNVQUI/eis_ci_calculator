@@ -40,4 +40,11 @@ public class CalculatorTest
 
         assertEquals(2, Calculator.div(4,2));
     }
+
+    @Test
+    public void shouldSqrtNumber()
+    {
+
+        assertEquals(5, Calculator.sqrt(25));
+    }
 }
