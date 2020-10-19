@@ -28,9 +28,16 @@ public class CalculatorTest
     }
 
     @Test
-    public void shouldTimneBothNumber()
+    public void shouldTimeBothNumber()
     {
 
         assertEquals(6, Calculator.time(3,2));
+    }
+
+    @Test
+    public void shouldDivideBothNumber()
+    {
+
+        assertEquals(2, Calculator.div(4,2));
     }
 }

@@ -12,4 +12,8 @@ public class Calculator {
     public static int time(int i, int i1) {
         return i * i1;
     }
+
+    public static int div(int i, int i1) {
+        return i / i1;
+    }
 }
